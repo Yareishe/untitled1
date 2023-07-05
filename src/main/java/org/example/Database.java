@@ -10,7 +10,6 @@ public class Database {
 
     private static Database instance;
     private Connection connection;
-
     public static synchronized Database getInstance() {
         if (instance == null) {
             instance = new Database();
